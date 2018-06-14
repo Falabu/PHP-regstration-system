@@ -1,6 +1,6 @@
 <?php
 /**
- *
+ * Ide beírok valamit
  *
  *
  * Copyright (C) 2018 by Kurucz Dávid
