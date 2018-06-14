@@ -1,0 +1,208 @@
+﻿2018.06.13 14:25:39 : hahóóóó
+2018.06.13 14:25:40 : hahóóóó
+2018.06.13 14:25:41 : hahóóóó
+2018.06.13 14:26:39 : Kapcsolódva az adatbázishoz
+2018.06.13 14:26:41 : Kapcsolódva az adatbázishoz
+2018.06.13 15:31:47 : Kapcsolódva az adatbázishoz
+2018.06.13 15:31:58 : Kapcsolódva az adatbázishoz
+2018.06.13 15:32:03 : Kapcsolódva az adatbázishoz
+2018.06.13 15:32:07 : Kapcsolódva az adatbázishoz
+2018.06.13 15:32:34 : Kapcsolódva az adatbázishoz
+2018.06.13 15:32:49 : Kapcsolódva az adatbázishoz
+2018.06.13 15:33:41 : Kapcsolódva az adatbázishoz
+2018.06.13 15:36:41 : Kapcsolódva az adatbázishoz
+2018.06.13 15:36:54 : Kapcsolódva az adatbázishoz
+2018.06.13 15:54:30 : Kapcsolódva az adatbázishoz
+2018.06.13 15:55:23 : Kapcsolódva az adatbázishoz
+2018.06.13 15:55:50 : Kapcsolódva az adatbázishoz
+2018.06.13 15:56:20 : Kapcsolódva az adatbázishoz
+2018.06.13 15:56:34 : Kapcsolódva az adatbázishoz
+2018.06.13 15:57:39 : Kapcsolódva az adatbázishoz
+2018.06.13 15:57:45 : Kapcsolódva az adatbázishoz
+2018.06.13 15:57:51 : Kapcsolódva az adatbázishoz
+2018.06.13 15:58:34 : Kapcsolódva az adatbázishoz
+2018.06.13 15:58:44 : Kapcsolódva az adatbázishoz
+2018.06.13 16:00:01 : Kapcsolódva az adatbázishoz
+2018.06.13 16:00:02 : Kapcsolódva az adatbázishoz
+2018.06.13 16:00:02 : Kapcsolódva az adatbázishoz
+2018.06.13 16:00:38 : Kapcsolódva az adatbázishoz
+2018.06.13 16:01:29 : Kapcsolódva az adatbázishoz
+2018.06.13 16:01:30 : Kapcsolódva az adatbázishoz
+2018.06.13 16:01:30 : Kapcsolódva az adatbázishoz
+2018.06.13 16:01:30 : Kapcsolódva az adatbázishoz
+2018.06.13 16:01:30 : Kapcsolódva az adatbázishoz
+2018.06.13 16:02:27 : Kapcsolódva az adatbázishoz
+2018.06.13 16:03:01 : Kapcsolódva az adatbázishoz
+2018.06.13 16:03:11 : Kapcsolódva az adatbázishoz
+2018.06.13 16:03:25 : Kapcsolódva az adatbázishoz
+2018.06.13 16:03:35 : Kapcsolódva az adatbázishoz
+2018.06.13 16:04:41 : Kapcsolódva az adatbázishoz
+2018.06.13 16:12:30 : Kapcsolódva az adatbázishoz
+2018.06.13 16:13:47 : Kapcsolódva az adatbázishoz
+2018.06.13 16:17:52 : Kapcsolódva az adatbázishoz
+2018.06.13 16:18:08 : Kapcsolódva az adatbázishoz
+2018.06.13 16:18:24 : Kapcsolódva az adatbázishoz
+2018.06.13 16:18:31 : Kapcsolódva az adatbázishoz
+2018.06.13 16:18:32 : Kapcsolódva az adatbázishoz
+2018.06.13 16:18:49 : Kapcsolódva az adatbázishoz
+2018.06.13 16:19:18 : Kapcsolódva az adatbázishoz
+2018.06.13 16:19:24 : Kapcsolódva az adatbázishoz
+2018.06.13 16:19:36 : Kapcsolódva az adatbázishoz
+2018.06.13 16:19:45 : Kapcsolódva az adatbázishoz
+2018.06.13 16:20:01 : Kapcsolódva az adatbázishoz
+2018.06.13 16:20:05 : Kapcsolódva az adatbázishoz
+2018.06.13 16:20:19 : Kapcsolódva az adatbázishoz
+2018.06.13 16:20:24 : Kapcsolódva az adatbázishoz
+2018.06.13 16:20:42 : Kapcsolódva az adatbázishoz
+2018.06.13 16:48:26 : Kapcsolódva az adatbázishoz
+2018.06.13 16:49:07 : Kapcsolódva az adatbázishoz
+2018.06.13 16:49:23 : Kapcsolódva az adatbázishoz
+2018.06.13 16:49:52 : Kapcsolódva az adatbázishoz
+2018.06.13 16:49:53 : Kapcsolódva az adatbázishoz
+2018.06.13 16:49:59 : Kapcsolódva az adatbázishoz
+2018.06.13 16:50:43 : Kapcsolódva az adatbázishoz
+2018.06.13 16:50:58 : Kapcsolódva az adatbázishoz
+2018.06.13 16:51:43 : Kapcsolódva az adatbázishoz
+2018.06.13 16:52:13 : Kapcsolódva az adatbázishoz
+2018.06.13 16:52:14 : Kapcsolódva az adatbázishoz
+2018.06.13 16:52:52 : Kapcsolódva az adatbázishoz
+2018.06.13 16:53:11 : Kapcsolódva az adatbázishoz
+2018.06.13 17:40:06 : Kapcsolódva az adatbázishoz
+2018.06.13 17:40:17 : Kapcsolódva az adatbázishoz
+2018.06.13 17:40:35 : Kapcsolódva az adatbázishoz
+2018.06.13 17:40:50 : Kapcsolódva az adatbázishoz
+2018.06.13 17:40:57 : Kapcsolódva az adatbázishoz
+2018.06.13 17:41:19 : Kapcsolódva az adatbázishoz
+2018.06.13 17:41:20 : Kapcsolódva az adatbázishoz
+2018.06.13 17:41:40 : Kapcsolódva az adatbázishoz
+2018.06.13 17:42:47 : Kapcsolódva az adatbázishoz
+2018.06.13 17:43:00 : Kapcsolódva az adatbázishoz
+2018.06.13 17:43:09 : Kapcsolódva az adatbázishoz
+2018.06.13 17:43:18 : Kapcsolódva az adatbázishoz
+2018.06.13 17:43:19 : Kapcsolódva az adatbázishoz
+2018.06.13 17:43:19 : Kapcsolódva az adatbázishoz
+2018.06.13 17:43:19 : Kapcsolódva az adatbázishoz
+2018.06.13 17:43:20 : Kapcsolódva az adatbázishoz
+2018.06.13 17:43:20 : Kapcsolódva az adatbázishoz
+2018.06.13 17:43:20 : Kapcsolódva az adatbázishoz
+2018.06.13 17:43:20 : Kapcsolódva az adatbázishoz
+2018.06.13 17:57:51 : Kapcsolódva az adatbázishoz
+2018.06.13 17:59:43 : Kapcsolódva az adatbázishoz
+2018.06.13 18:02:32 : Kapcsolódva az adatbázishoz
+2018.06.13 18:02:40 : Kapcsolódva az adatbázishoz
+2018.06.13 18:03:33 : Kapcsolódva az adatbázishoz
+2018.06.13 18:04:19 : Kapcsolódva az adatbázishoz
+2018.06.13 18:04:23 : Kapcsolódva az adatbázishoz
+2018.06.13 18:04:24 : Kapcsolódva az adatbázishoz
+2018.06.13 18:04:27 : Kapcsolódva az adatbázishoz
+2018.06.13 18:04:27 : Kapcsolódva az adatbázishoz
+2018.06.13 18:04:27 : Kapcsolódva az adatbázishoz
+2018.06.13 18:04:38 : Kapcsolódva az adatbázishoz
+2018.06.13 18:05:04 : Kapcsolódva az adatbázishoz
+2018.06.13 18:05:05 : Kapcsolódva az adatbázishoz
+2018.06.13 18:05:06 : Kapcsolódva az adatbázishoz
+2018.06.13 18:05:06 : Kapcsolódva az adatbázishoz
+2018.06.13 18:05:06 : Kapcsolódva az adatbázishoz
+2018.06.13 18:05:47 : Kapcsolódva az adatbázishoz
+2018.06.13 18:05:47 : Kapcsolódva az adatbázishoz
+2018.06.13 18:05:55 : Kapcsolódva az adatbázishoz
+2018.06.13 18:05:56 : Kapcsolódva az adatbázishoz
+2018.06.13 18:05:56 : Kapcsolódva az adatbázishoz
+2018.06.13 18:06:09 : Kapcsolódva az adatbázishoz
+2018.06.13 18:06:39 : Kapcsolódva az adatbázishoz
+2018.06.13 18:07:14 : Kapcsolódva az adatbázishoz
+2018.06.13 18:07:15 : Kapcsolódva az adatbázishoz
+2018.06.13 18:07:16 : Kapcsolódva az adatbázishoz
+2018.06.13 18:07:16 : Kapcsolódva az adatbázishoz
+2018.06.13 18:07:16 : Kapcsolódva az adatbázishoz
+2018.06.13 18:07:43 : Kapcsolódva az adatbázishoz
+2018.06.13 18:08:48 : Kapcsolódva az adatbázishoz
+2018.06.13 18:08:50 : Kapcsolódva az adatbázishoz
+2018.06.13 18:09:08 : Kapcsolódva az adatbázishoz
+2018.06.13 18:09:09 : Kapcsolódva az adatbázishoz
+2018.06.13 18:09:45 : Kapcsolódva az adatbázishoz
+2018.06.13 18:10:04 : Kapcsolódva az adatbázishoz
+2018.06.13 18:10:15 : Kapcsolódva az adatbázishoz
+2018.06.13 18:11:05 : Kapcsolódva az adatbázishoz
+2018.06.13 18:11:18 : Kapcsolódva az adatbázishoz
+2018.06.13 18:11:56 : Kapcsolódva az adatbázishoz
+2018.06.13 18:12:11 : Kapcsolódva az adatbázishoz
+2018.06.13 18:12:25 : Kapcsolódva az adatbázishoz
+2018.06.13 18:12:53 : Kapcsolódva az adatbázishoz
+2018.06.13 18:13:06 : Kapcsolódva az adatbázishoz
+2018.06.13 18:13:34 : Kapcsolódva az adatbázishoz
+2018.06.13 18:13:55 : Kapcsolódva az adatbázishoz
+2018.06.13 18:14:11 : Kapcsolódva az adatbázishoz
+2018.06.13 18:16:16 : Kapcsolódva az adatbázishoz
+2018.06.13 18:17:31 : Kapcsolódva az adatbázishoz
+2018.06.13 18:17:58 : Kapcsolódva az adatbázishoz
+2018.06.13 18:18:28 : Kapcsolódva az adatbázishoz
+2018.06.13 18:18:42 : Kapcsolódva az adatbázishoz
+2018.06.13 18:18:56 : Kapcsolódva az adatbázishoz
+2018.06.13 18:19:41 : Kapcsolódva az adatbázishoz
+2018.06.13 18:20:09 : Kapcsolódva az adatbázishoz
+2018.06.13 18:20:17 : Kapcsolódva az adatbázishoz
+2018.06.13 18:20:46 : Kapcsolódva az adatbázishoz
+2018.06.13 18:21:46 : Kapcsolódva az adatbázishoz
+2018.06.13 18:22:25 : Kapcsolódva az adatbázishoz
+2018.06.13 18:22:50 : Kapcsolódva az adatbázishoz
+2018.06.13 18:23:40 : Kapcsolódva az adatbázishoz
+2018.06.13 18:23:59 : Kapcsolódva az adatbázishoz
+2018.06.13 18:24:44 : Kapcsolódva az adatbázishoz
+2018.06.13 18:25:04 : Kapcsolódva az adatbázishoz
+2018.06.13 18:25:14 : Kapcsolódva az adatbázishoz
+2018.06.13 18:25:19 : Kapcsolódva az adatbázishoz
+2018.06.13 18:25:57 : Kapcsolódva az adatbázishoz
+2018.06.13 18:28:13 : Kapcsolódva az adatbázishoz
+2018.06.13 18:28:37 : Kapcsolódva az adatbázishoz
+2018.06.13 18:29:11 : Kapcsolódva az adatbázishoz
+2018.06.13 18:29:15 : Kapcsolódva az adatbázishoz
+2018.06.13 18:29:17 : Kapcsolódva az adatbázishoz
+2018.06.13 18:29:24 : Kapcsolódva az adatbázishoz
+2018.06.13 18:30:17 : Kapcsolódva az adatbázishoz
+2018.06.13 18:30:28 : Kapcsolódva az adatbázishoz
+2018.06.13 18:30:28 : Kapcsolódva az adatbázishoz
+2018.06.13 18:31:12 : Kapcsolódva az adatbázishoz
+2018.06.13 18:32:24 : Kapcsolódva az adatbázishoz
+2018.06.13 18:33:41 : Kapcsolódva az adatbázishoz
+2018.06.13 18:33:42 : Kapcsolódva az adatbázishoz
+2018.06.13 18:33:43 : Kapcsolódva az adatbázishoz
+2018.06.13 18:33:55 : Kapcsolódva az adatbázishoz
+2018.06.13 18:34:51 : Kapcsolódva az adatbázishoz
+2018.06.13 18:35:04 : Kapcsolódva az adatbázishoz
+2018.06.13 18:35:06 : Kapcsolódva az adatbázishoz
+2018.06.13 18:35:23 : Kapcsolódva az adatbázishoz
+2018.06.13 18:35:49 : Kapcsolódva az adatbázishoz
+2018.06.13 18:36:41 : Kapcsolódva az adatbázishoz
+2018.06.13 18:36:43 : Kapcsolódva az adatbázishoz
+2018.06.13 18:37:36 : Kapcsolódva az adatbázishoz
+2018.06.13 18:37:37 : Kapcsolódva az adatbázishoz
+2018.06.13 18:37:38 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4132c854640eca91aec4ccbed76da447' for key 'session_session_uindex'
+2018.06.13 18:37:38 : Kapcsolódva az adatbázishoz
+2018.06.13 18:37:39 : Kapcsolódva az adatbázishoz
+2018.06.13 18:37:39 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4132c854640eca91aec4ccbed76da447' for key 'session_session_uindex'
+2018.06.13 20:09:23 : SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`vizsga`.`session`, CONSTRAINT `session_users_id_fk` FOREIGN KEY (`uId`) REFERENCES `users` (`id`))
+2018.06.13 20:09:31 : SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`vizsga`.`session`, CONSTRAINT `session_users_id_fk` FOREIGN KEY (`uId`) REFERENCES `users` (`id`))
+2018.06.13 20:09:32 : SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`vizsga`.`session`, CONSTRAINT `session_users_id_fk` FOREIGN KEY (`uId`) REFERENCES `users` (`id`))
+2018.06.13 20:10:38 : SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`vizsga`.`session`, CONSTRAINT `session_users_id_fk` FOREIGN KEY (`uId`) REFERENCES `users` (`id`))
+2018.06.13 20:10:50 : SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`vizsga`.`session`, CONSTRAINT `session_users_id_fk` FOREIGN KEY (`uId`) REFERENCES `users` (`id`))
+2018.06.13 20:11:22 : SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`vizsga`.`session`, CONSTRAINT `session_users_id_fk` FOREIGN KEY (`uId`) REFERENCES `users` (`id`))
+2018.06.13 20:11:36 : SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`vizsga`.`session`, CONSTRAINT `session_users_id_fk` FOREIGN KEY (`uId`) REFERENCES `users` (`id`))
+2018.06.13 20:11:45 : SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`vizsga`.`session`, CONSTRAINT `session_users_id_fk` FOREIGN KEY (`uId`) REFERENCES `users` (`id`))
+2018.06.13 20:11:45 : SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`vizsga`.`session`, CONSTRAINT `session_users_id_fk` FOREIGN KEY (`uId`) REFERENCES `users` (`id`))
+2018.06.13 20:12:09 : SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`vizsga`.`session`, CONSTRAINT `session_users_id_fk` FOREIGN KEY (`uId`) REFERENCES `users` (`id`))
+2018.06.13 20:12:28 : SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`vizsga`.`session`, CONSTRAINT `session_users_id_fk` FOREIGN KEY (`uId`) REFERENCES `users` (`id`))
+2018.06.13 20:13:16 : SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`vizsga`.`session`, CONSTRAINT `session_users_id_fk` FOREIGN KEY (`uId`) REFERENCES `users` (`id`))
+2018.06.13 20:14:01 : SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`vizsga`.`session`, CONSTRAINT `session_users_id_fk` FOREIGN KEY (`uId`) REFERENCES `users` (`id`))
+2018.06.13 20:14:02 : SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`vizsga`.`session`, CONSTRAINT `session_users_id_fk` FOREIGN KEY (`uId`) REFERENCES `users` (`id`))
+2018.06.13 20:14:25 : SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`vizsga`.`session`, CONSTRAINT `session_users_id_fk` FOREIGN KEY (`uId`) REFERENCES `users` (`id`))
+2018.06.13 20:16:14 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '32' for key 'session_uId_uindex'
+2018.06.13 20:16:41 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7fe49fe49cdcef4cf5caec3ba26d93e4' for key 'session_session_uindex'
+2018.06.13 20:17:10 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '32' for key 'session_uId_uindex'
+2018.06.13 20:17:45 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8969bff32a964dc8d47400aca3a7a43f' for key 'session_session_uindex'
+2018.06.13 20:17:50 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8969bff32a964dc8d47400aca3a7a43f' for key 'session_session_uindex'
+2018.06.13 20:17:51 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8969bff32a964dc8d47400aca3a7a43f' for key 'session_session_uindex'
+2018.06.13 20:17:52 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8969bff32a964dc8d47400aca3a7a43f' for key 'session_session_uindex'
+2018.06.13 20:17:59 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8969bff32a964dc8d47400aca3a7a43f' for key 'session_session_uindex'
+2018.06.13 20:20:00 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '32' for key 'session_uId_uindex'
+2018.06.13 20:25:29 : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '34' for key 'session_uId_uindex'
