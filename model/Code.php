@@ -1,7 +1,11 @@
 <?php
 /**
  * Ide beírok valamit elehetasdadsad
+ * Ide is beírok valamit
  *
+ * trtrtzrtrt
+ * sdfsf
+ * sdfsdfsfsfs
  *
  * Copyright (C) 2018 by Kurucz Dávid
  *
