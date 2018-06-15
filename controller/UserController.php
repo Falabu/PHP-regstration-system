@@ -108,7 +108,7 @@ class UserController
     /**
      * Logs in the user, if everything allright(username, password), creates the user's session
      *
-     * @param SessionAuth $auth Session object for authentication on all pages
+     * @param SessionAuth $auth Session object for authentication across the application
      * @return bool
      */
     public function login(SessionAuth $auth)
@@ -125,7 +125,7 @@ class UserController
     /**
      * Logs out the user by deleting the session
      *
-     * @param SessionAuth $auth Session object for authentication on all pages
+     * @param SessionAuth $auth Session object for authentication across the application
      * @return bool
      */
     public function logout(SessionAuth $auth)

@@ -1,28 +1,39 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: DaweTheDrummer
- * Date: 2018. 06. 13.
- * Time: 18:41
+ *Helper class for the UserController
+ * Manages the database querys
+ *
  */
 
 class UserDataManager
 {
     private $db;
 
-
+    /**
+     * UserDataManager constructor. Creates a database connection
+     */
     public function __construct()
     {
         $this->db = dbConnect::dbCon();
     }
 
-
+    /**
+     * Updates the users info where ID is the same
+     *
+     * @param User $user
+     */
     public function updateUserInfo(User $user)
     {
         $sql = $this->db->prepare("UPDATE users SET email = ?, password = ? WHERE id = ?");
         $sql->execute([$user->getUEmail(), $user->getUPassword(), $user->getUId()]);
     }
 
+    /**
+     * Uploading the new user to datbase
+     *
+     * @param User $user
+     * @return bool
+     */
     public function registerDB(User $user)
     {
         if ($this->checkIfUserExist($user) == true) {
@@ -33,7 +44,10 @@ class UserDataManager
             return true;
         }
     }
-
+    /**
+     * Gets the users information from the database by Id
+     *
+     */
     public function getUserDataById($uId)
     {
         $sql = $this->db->prepare("SELECT username, email FROM users WHERE id = ?");
@@ -41,7 +55,10 @@ class UserDataManager
 
         return $sql->fetchAll();
     }
-
+    /**
+     * If there is a row with a username and password the user autheticated
+     *
+     */
     public function loginDb(User $user)
     {
         $sql = $this->db->prepare("SELECT id FROM users WHERE username = ? AND password = ?");
@@ -55,6 +72,12 @@ class UserDataManager
         }
     }
 
+    /**
+     * It same like loginDB I need to change something here :D
+     *
+     * @param User $user
+     * @return bool
+     */
     private function checkIfUserExist(User $user)
     {
         $sql = $this->db->prepare("SELECT id FROM users WHERE username = ? AND email = ?");
