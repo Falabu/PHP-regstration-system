@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bb9ef2e6-d5fa-4917-87e6-46ca70427a19" name="PHP" url="http://localhost/PHP-regstration-system">
+        <fileTransfer port="0" mountedRoot="D:\WebDevelopment\PHP-regstration-system" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

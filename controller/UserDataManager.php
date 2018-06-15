@@ -44,6 +44,7 @@ class UserDataManager
             return true;
         }
     }
+
     /**
      * Gets the users information from the database by Id
      *
@@ -55,14 +56,14 @@ class UserDataManager
 
         return $sql->fetchAll();
     }
+
     /**
      * If there is a row with a username and password the user autheticated
      *
      */
     public function loginDb(User $user)
     {
-        $sql = $this->db->prepare("SELECT id FROM users WHERE username = ? AND password = ?");
-        $sql->execute([$user->getUName(), $user->getUPassword()]);
+        $sql = $this->selectUserSQL($user);
 
         if ($sql->rowCount() == 1) {
             $user->setUId($sql->fetchColumn());
@@ -70,6 +71,15 @@ class UserDataManager
         } else {
             return false;
         }
+    }
+
+
+    private function selectUserSQL(User $user)
+    {
+        $sql = $this->db->prepare("SELECT id FROM users WHERE username = ? OR email = ?");
+        $sql->execute([$user->getUName(), $user->getUEmail()]);
+
+        return $sql;
     }
 
     /**
@@ -80,14 +90,12 @@ class UserDataManager
      */
     private function checkIfUserExist(User $user)
     {
-        $sql = $this->db->prepare("SELECT id FROM users WHERE username = ? AND email = ?");
-        $sql->execute([$user->getUName(), $user->getUEmail()]);
+        $sql = $this->selectUserSQL($user);
         $data = $sql->fetchAll();
 
         if ($data) {
             return true;
         } else {
-
             return false;
         }
     }
