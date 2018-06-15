@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: DaweTheDrummer
- * Date: 2018. 06. 13.
- * Time: 14:57
+ * Class for manage the users codes
+ *
+ *
+ *
  */
 
 class Code
@@ -25,14 +25,10 @@ class Code
     }
 
     /**
-     * @param mixed $uId
+     * Check if the code is just have letters and numbers
+     *
+     * @return bool
      */
-    public function setUId($uId)
-    {
-        $this->uId = $uId;
-    }
-
-
     private function codeChecker()
     {
         if (preg_match("/^[a-zA-Z0-9]*$/", $this->code)) {
@@ -43,6 +39,11 @@ class Code
         }
     }
 
+    /**
+     * Check if the code is have enough lenght
+     *
+     * @return bool
+     */
     private function lenghtCheck()
     {
         if (mb_strlen($this->code) != 24) {
@@ -52,11 +53,22 @@ class Code
         }
     }
 
+    /**
+     * Return an array that conatins the users codes that uploaded to database
+     *
+     * @return array
+     */
     public function getCodes()
     {
         return $this->formatCodes($this->codeDb->get($this->uId));
     }
 
+    /**
+     * Formats the code to more readable every 4 letters it is inserts a "-"
+     *
+     * @param $codeArray
+     * @return array
+     */
     private function formatCodes($codeArray)
     {
         $tmpCodeArray = array();
@@ -74,6 +86,12 @@ class Code
         return $tmpCodeArray;
     }
 
+    /**
+     * Uploads the code to the database after checking
+     *
+     * @return bool
+     *
+     */
 
     public function uploadCode()
     {
