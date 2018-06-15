@@ -3,15 +3,8 @@ require  'config/config.php';
 
 $user = new UserController();
 
-$user->setUserById(1);
-
-$usr = $user->getUser();
+$user->register("falabuds","daviddddd@greef.hu","sssaaa","sssaaa");
 
 
-echo $usr->getUEmail();
-echo $usr->getUName();
-
-echo var_dump($user);
 
 echo errorLogger::getUserMessages();
-

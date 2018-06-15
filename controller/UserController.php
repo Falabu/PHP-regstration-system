@@ -40,7 +40,7 @@ class UserController
     public function setUserById($uId)
     {
         $userData = $this->userDbManager->getUserDataById($uId);
-        foreach ($userData as $key){
+        foreach ($userData as $key) {
             $this->user->setUEmail($key['email']);
             $this->user->setUName($key['username']);
         }
@@ -55,7 +55,7 @@ class UserController
      * @param $pass2 string The users password one more time for checking propuse
      * @return bool
      */
-    public function createUserReg($uName, $email, $pass1, $pass2)
+    private function createUserReg($uName, $email, $pass1, $pass2)
     {
         $this->user->setUName($uName);
         $this->user->setUEmail($email);
@@ -92,16 +92,21 @@ class UserController
     /**
      * Register the user if there is no same user in the database
      *
-     * @return bool
+     * @param $name
+     * @param $email
+     * @param $pass1
+     * @param $pass2
      */
-    public function register()
+    public function register($name, $email, $pass1, $pass2)
     {
-        if ($this->userDbManager->registerDB($this->user) == true) {
-            errorLogger::writeUserMessages("Sikeres regisztráció!");
-            return true;
-        } else {
-            errorLogger::writeUserMessages("Már van ilyen felhasználó!");
-            return false;
+        if ($this->createUserReg($name, $email, $pass1, $pass2)) {
+            if ($this->userDbManager->registerDB($this->user) == true) {
+                errorLogger::writeUserMessages("Sikeres regisztráció!");
+            } else {
+                errorLogger::writeUserMessages("Már van ilyen felhasználó!");
+            }
+        }else{
+            errorLogger::writeUserMessages("Hibás jelszó próbálkozzon újra");
         }
     }
 
