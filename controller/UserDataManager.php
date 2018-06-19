@@ -67,23 +67,16 @@ class UserDataManager implements UserDataManagerInterface
      */
     public function loginDb(User $user)
     {
-        $data = $this->selectUserSQL($user);
+        $sql = $this->db->prepare("SELECT id FROM users WHERE username = ? AND password = ?");
+        $sql->execute([$user->getUName(),$user->getUPassword()]);
+        $data = $sql->fetchColumn();
 
-        if (!$data) {
+        if ($data == false) {
             return false;
         }
         $user->setUId($data);
 
         return true;
-    }
-
-
-    private function selectUserSQL(User $user)
-    {
-        $sql = $this->db->prepare("SELECT id FROM users WHERE username = ? OR email = ? LIMIT 1");
-        $sql->execute([$user->getUName(), $user->getUEmail()]);
-
-        return $sql->fetchColumn();
     }
 
     /**
@@ -94,7 +87,10 @@ class UserDataManager implements UserDataManagerInterface
      */
     private function checkIfUserExist(User $user)
     {
-        $data = $this->selectUserSQL($user);
+        $sql = $this->db->prepare("SELECT id FROM users WHERE username = ? OR email = ? LIMIT 1");
+        $sql->execute([$user->getUName(), $user->getUEmail()]);
+
+        $data = $sql->fetchColumn();
 
         if ($data) {
             return true;

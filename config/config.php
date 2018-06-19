@@ -1,11 +1,15 @@
 <?php
-//Import
+//Import Interfaces
 
 require 'controller/UserDataManagerInterface.php';
 require 'model/PasswordInterface.php';
 require 'model/SessionAuthInterface.php';
 require 'model/CodeDataManagerInterface.php';
 require 'model/SessionAuthDataManagerInterface.php';
+require 'controller/UserControllerInterface.php';
+
+
+//import classes
 
 require 'utils/errorLogger.php';
 require 'database/DbConnect.php';

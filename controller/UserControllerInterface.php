@@ -12,13 +12,11 @@ interface UserControllerInterface
 
     public function setUserById($uId);
 
-    public function createUserLogin($uName, $pass);
-
     public function updateUserData();
 
     public function register($name, $email, $pass1, $pass2);
 
-    public function login(SessionAuthInterface $auth);
+    public function login(SessionAuthInterface $auth,$name,$pass);
 
     public function logout(SessionAuthInterface $auth);
 }

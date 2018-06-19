@@ -75,7 +75,7 @@ class UserController implements UserControllerInterface
      * @param $pass string The users password
      */
 
-    public function createUserLogin($uName, $pass)
+    private function createUserLogin($uName, $pass)
     {
         $this->user->setUName($uName);
         $this->password->hashPassword($pass);
@@ -114,10 +114,14 @@ class UserController implements UserControllerInterface
      * Logs in the user, if everything allright(username, password), creates the user's session
      *
      * @param SessionAuthInterface $auth Session object for authentication across the application
+     * @param $name string Username
+     * @param $pass string Password
      * @return bool
      */
-    public function login(SessionAuthInterface $auth)
+    public function login(SessionAuthInterface $auth,$name,$pass)
     {
+        $this->createUserLogin($name,$pass);
+
         if ($this->userDbManager->loginDb($this->user)) {
             $auth->setSession($this->user->getUId());
             return true;
