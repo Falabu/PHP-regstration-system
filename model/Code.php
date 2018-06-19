@@ -31,7 +31,7 @@ class Code
     private $uId;
     private $codeDb;
 
-    public function __construct($uId, $code = NULL)
+    public function __construct(CodeDataManagerInterface $dataMG, $uId, $code = NULL)
     {
         if (isset($uId) && isset($code)) {
             $this->code = $code;
@@ -40,36 +40,7 @@ class Code
             $this->uId = $uId;
         }
 
-        $this->codeDb = new CodeDataManager();
-    }
-
-    /**
-     * Check if the code is just have letters and numbers
-     *
-     * @return bool
-     */
-    private function codeChecker()
-    {
-        if (preg_match("/^[a-zA-Z0-9]*$/", $this->code)) {
-            $this->code = strtoupper($this->code);
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    /**
-     * Check if the code is have enough lenght
-     *
-     * @return bool
-     */
-    private function lenghtCheck()
-    {
-        if (mb_strlen($this->code) != 24) {
-            return false;
-        } else {
-            return true;
-        }
+        $this->codeDb = $dataMG;
     }
 
     /**
@@ -80,6 +51,29 @@ class Code
     public function getCodes()
     {
         return $this->formatCodes($this->codeDb->get($this->uId));
+    }
+
+    /**
+     * Uploads the code to the database after checking
+     *
+     * @return bool
+     *
+     */
+    public function uploadCode()
+    {
+        if ($this->lenghtCheck()) {
+            if ($this->codeChecker()) {
+                $this->codeDb->upload($this->uId, $this->code);
+                errorLogger::writeUserMessages("A kód sikeresen feltöltve");
+                return true;
+            } else {
+                errorLogger::writeUserMessages("A kód csak betűt és számot tartalmazhat és ékezetes karaktert nem");
+                return false;
+            }
+        } else {
+            errorLogger::writeUserMessages("A kódnak 24 jegyűnek kell lennie");
+            return false;
+        }
     }
 
     /**
@@ -98,7 +92,7 @@ class Code
                 if ($i % 4 == 0 && $i != 0) {
                     $tmpCodeArray[$j] .= "-";
                 }
-                $tmpCodeArray[$j] .= $codeArray[$j][$i];
+                $tmpCodeArray[$j] .= strtoupper($codeArray[$j][$i]);
             }
         }
 
@@ -106,26 +100,29 @@ class Code
     }
 
     /**
-     * Uploads the code to the database after checking
+     * Check if the code is just have letters and numbers
      *
      * @return bool
-     *
      */
-
-    public function uploadCode()
+    private function codeChecker()
     {
-        if ($this->lenghtCheck()) {
-            if ($this->codeChecker()) {
-                $this->codeDb->upload($this->uId, $this->code);
-                errorLogger::writeUserMessages("A kód sikeresen feltöltve");
-                return true;
-            } else {
-                errorLogger::writeUserMessages("A kód csak betűt és számot tartalmazhat és ékezetes karaktert nem");
-                return false;
-            }
-        } else {
-            errorLogger::writeUserMessages("A kódnak 24 jegyűnek kell lennie");
+        if (!preg_match("/^[a-zA-Z0-9]*$/", $this->code)) {
             return false;
         }
+        return true;
+    }
+
+    /**
+     * Check if the code is have enough lenght
+     *
+     * @return bool
+     */
+    private function lenghtCheck()
+    {
+        if (mb_strlen($this->code) != 24) {
+            return false;
+        }
+
+        return true;
     }
 }

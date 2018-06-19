@@ -1,6 +1,12 @@
 <?php
 //Import
 
+require 'controller/UserDataManagerInterface.php';
+require 'model/PasswordInterface.php';
+require 'model/SessionAuthInterface.php';
+require 'model/CodeDataManagerInterface.php';
+require 'model/SessionAuthDataManagerInterface.php';
+
 require 'utils/errorLogger.php';
 require 'database/DbConnect.php';
 require 'model/Password.php';

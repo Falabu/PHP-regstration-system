@@ -34,16 +34,16 @@
  * @param $sessionDb SessionAuthDataManager
  */
 
-class SessionAuth
+class SessionAuth implements SessionAuthInterface
 {
     private $sessionHash;
     private $uId;
     private $sessionDb;
 
-    public function __construct()
+    public function __construct(SessionAuthDataManagerInterface $sessionDb)
     {
         session_start();
-        $this->sessionDb = new SessionAuthDataManager();
+        $this->sessionDb = $sessionDb;
     }
 
     /**
@@ -52,6 +52,7 @@ class SessionAuth
      * and other login attempt happens it's logs out the user and delete the session.
      *
      * @param $uID int THe logged in user's ID
+     * @return boolean
      */
     public function setSession($uID)
     {
@@ -61,12 +62,15 @@ class SessionAuth
         if ($this->checkLogin()) {
             $this->delSession();
             errorLogger::writeUserMessages("Már van ilyen felhasználó bejelentkezve! Ezért kiléptettük a felhasználót");
-        } else {
-            $_SESSION['login'] = true;
-            $_SESSION['hash'] = $this->sessionHash;
-            $_SESSION['id'] = $this->uId;
-            $this->sessionDb->setSessionDb($this->uId, $this->sessionHash);
+            return false;
         }
+
+        $_SESSION['login'] = true;
+        $_SESSION['hash'] = $this->sessionHash;
+        $_SESSION['id'] = $this->uId;
+        $this->sessionDb->setSessionDb($this->uId, $this->sessionHash);
+
+        return true;
     }
 
     /**

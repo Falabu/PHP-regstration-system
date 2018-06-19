@@ -29,7 +29,7 @@
  * Time: 15:03
  */
 
-class CodeDataManager
+class CodeDataManager implements CodeDataManagerInterface
 {
     private $db;
 

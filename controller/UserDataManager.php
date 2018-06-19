@@ -5,7 +5,7 @@
  *
  */
 
-class UserDataManager
+class UserDataManager implements UserDataManagerInterface
 {
     private $db;
 
@@ -36,22 +36,24 @@ class UserDataManager
      */
     public function registerDB(User $user)
     {
-        if ($this->checkIfUserExist($user) == true) {
+        if ($this->checkIfUserExist($user)) {
             return false;
-        } else {
-            $sql = $this->db->prepare("INSERT INTO users(username, password, email) VALUES ( ? , ? , ? )");
-            $sql->execute([$user->getUName(), $user->getUPassword(), $user->getUEmail()]);
-            return true;
         }
+
+        $sql = $this->db->prepare("INSERT INTO users(username, password, email) VALUES ( ? , ? , ? )");
+        $sql->execute([$user->getUName(), $user->getUPassword(), $user->getUEmail()]);
+        return true;
     }
 
     /**
      * Gets the users information from the database by Id
      *
+     * @param $uId Int
+     * @return array
      */
     public function getUserDataById($uId)
     {
-        $sql = $this->db->prepare("SELECT username, email FROM users WHERE id = ?");
+        $sql = $this->db->prepare("SELECT username, email FROM users WHERE id = ? LIMIT 1");
         $sql->execute([$uId]);
 
         return $sql->fetchAll();
@@ -60,26 +62,28 @@ class UserDataManager
     /**
      * If there is a row with a username and password the user autheticated
      *
+     * @param $user User
+     * @return boolean
      */
     public function loginDb(User $user)
     {
-        $sql = $this->selectUserSQL($user);
+        $data = $this->selectUserSQL($user);
 
-        if ($sql->rowCount() == 1) {
-            $user->setUId($sql->fetchColumn());
-            return true;
-        } else {
+        if (!$data) {
             return false;
         }
+        $user->setUId($data);
+
+        return true;
     }
 
 
     private function selectUserSQL(User $user)
     {
-        $sql = $this->db->prepare("SELECT id FROM users WHERE username = ? OR email = ?");
+        $sql = $this->db->prepare("SELECT id FROM users WHERE username = ? OR email = ? LIMIT 1");
         $sql->execute([$user->getUName(), $user->getUEmail()]);
 
-        return $sql;
+        return $sql->fetchColumn();
     }
 
     /**
@@ -90,13 +94,12 @@ class UserDataManager
      */
     private function checkIfUserExist(User $user)
     {
-        $sql = $this->selectUserSQL($user);
-        $data = $sql->fetchAll();
+        $data = $this->selectUserSQL($user);
 
         if ($data) {
             return true;
-        } else {
-            return false;
         }
+
+        return false;
     }
 }

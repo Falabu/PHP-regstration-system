@@ -26,7 +26,7 @@
  *
  */
 
-class SessionAuthDataManager
+class SessionAuthDataManager implements SessionAuthDataManagerInterface
 {
     // Database connection
     private $db;

@@ -28,7 +28,7 @@
  *
  */
 
-class Password
+class Password implements PasswordInterface
 {
     private $password;
 
@@ -84,8 +84,6 @@ class Password
 
     /**
      * Creates the password hash with a uniqe key
-     *
-     * @return string
      */
 
     private function passwordHash()

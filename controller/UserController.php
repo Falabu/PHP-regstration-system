@@ -10,18 +10,18 @@
  * Class UserController
  */
 
-class UserController
+class UserController implements UserControllerInterface
 {
     private $user;
     private $userDbManager;
     private $password;
 
 
-    public function __construct()
+    public function __construct(UserDataManagerInterface $userDbManager, PasswordInterface $pwd)
     {
         $this->user = new User();
-        $this->userDbManager = new UserDataManager();
-        $this->password = new Password();
+        $this->userDbManager = $userDbManager;
+        $this->password = $pwd;
     }
 
     /**
@@ -113,10 +113,10 @@ class UserController
     /**
      * Logs in the user, if everything allright(username, password), creates the user's session
      *
-     * @param SessionAuth $auth Session object for authentication across the application
+     * @param SessionAuthInterface $auth Session object for authentication across the application
      * @return bool
      */
-    public function login(SessionAuth $auth)
+    public function login(SessionAuthInterface $auth)
     {
         if ($this->userDbManager->loginDb($this->user)) {
             $auth->setSession($this->user->getUId());
@@ -130,10 +130,10 @@ class UserController
     /**
      * Logs out the user by deleting the session
      *
-     * @param SessionAuth $auth Session object for authentication across the application
+     * @param SessionAuthInterface $auth Session object for authentication across the application
      * @return bool
      */
-    public function logout(SessionAuth $auth)
+    public function logout(SessionAuthInterface $auth)
     {
         if ($auth->delSession()) {
             return true;
