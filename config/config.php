@@ -1,12 +1,12 @@
 <?php
 //Import Interfaces
 
-require 'controller/UserDataManagerInterface.php';
+require 'model/UserDataManagerInterface.php';
 require 'model/PasswordInterface.php';
 require 'model/SessionAuthInterface.php';
 require 'model/CodeDataManagerInterface.php';
 require 'model/SessionAuthDataManagerInterface.php';
-require 'controller/UserControllerInterface.php';
+require 'model/UserControllerInterface.php';
 
 
 //import classes
@@ -19,8 +19,8 @@ require 'model/Code.php';
 require 'model/CodeDataManager.php';
 require 'model/SessionAuth.php';
 require 'model/SessionAuthDataManager.php';
-require 'controller/UserDataManager.php';
-require 'controller/UserController.php';
+require 'model/UserDataManager.php';
+require 'model/UserController.php';
 
 define('DB_NAME','vizsga');
 define('DB_UNAME','root');

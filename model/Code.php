@@ -33,13 +33,8 @@ class Code
 
     public function __construct(CodeDataManagerInterface $dataMG, $uId, $code = NULL)
     {
-        if (isset($uId) && isset($code)) {
-            $this->code = $code;
-            $this->uId = $uId;
-        } else {
-            $this->uId = $uId;
-        }
-
+        $this->code = $code;
+        $this->uId = $uId;
         $this->codeDb = $dataMG;
     }
 
