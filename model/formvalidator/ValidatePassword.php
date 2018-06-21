@@ -11,7 +11,7 @@ namespace model\formvalidator;
 
 use Utils\errorLogger;
 
-class ValidatePassword implements BasicValidator
+class ValidatePassword implements ValidatorInterface
 {
     private $minCapitalLetter;
     private $minNumber;

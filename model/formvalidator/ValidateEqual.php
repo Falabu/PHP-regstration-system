@@ -11,7 +11,7 @@ namespace Model\FormValidator;
 
 use Utils\errorLogger;
 
-class ValidateEqual
+class ValidateEqual implements ValidatorInterface
 {
     private $token;
     private $error;

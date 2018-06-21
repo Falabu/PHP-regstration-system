@@ -14,7 +14,7 @@ class FormValidator
     private $error;
 
 
-    public function addValidator(BasicValidator $validator)
+    public function addValidator(ValidatorInterface $validator)
     {
         $this->validators[] = $validator;
     }

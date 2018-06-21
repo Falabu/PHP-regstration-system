@@ -9,7 +9,7 @@
 namespace Model\FormValidator;
 use Utils\errorLogger;
 
-class ValidateEmail implements BasicValidator
+class ValidateEmail implements ValidatorInterface
 {
     private $regex = "/([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}/";
 

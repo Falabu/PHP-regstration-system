@@ -2,7 +2,7 @@
 //require 'config/config.php';
 define('LOG_URL',$_SERVER['DOCUMENT_ROOT'] . "/Vizsga/log/");
 require 'utils/errorLogger.php';
-require 'model/formvalidator/BasicValidator.php';
+require 'model/formvalidator/ValidatorInterface.php';
 require 'model/formvalidator/ValidateEmail.php';
 require 'model/formvalidator/ValidateRange.php';
 require 'model/formvalidator/ValidateEqual.php';

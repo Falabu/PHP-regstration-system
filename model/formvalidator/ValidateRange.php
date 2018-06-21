@@ -11,7 +11,7 @@ namespace Model\FormValidator;
 
 use Utils\errorLogger;
 
-class ValidateRange implements BasicValidator
+class ValidateRange implements ValidatorInterface
 {
     private $from;
     private $to;

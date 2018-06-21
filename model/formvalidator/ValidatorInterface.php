@@ -8,7 +8,7 @@
 
 namespace Model\FormValidator;
 
-interface BasicValidator
+interface ValidatorInterface
 {
     public function validate($data);
 }
