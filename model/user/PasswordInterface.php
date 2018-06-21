@@ -6,6 +6,8 @@
  * Time: 13:25
  */
 
+namespace Model\User;
+
 interface PasswordInterface
 {
     public function createPassword($pwd1, $pwd2);

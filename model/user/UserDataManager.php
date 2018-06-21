@@ -5,6 +5,9 @@
  *
  */
 
+namespace Model\User;
+use Utils\dbConnect;
+
 class UserDataManager implements UserDataManagerInterface
 {
     private $db;

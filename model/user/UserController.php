@@ -10,6 +10,10 @@
  * Class UserController
  */
 
+namespace Model\User;
+use Utils\errorLogger;
+use Model\Session\SessionAuthInterface;
+
 class UserController implements UserControllerInterface
 {
     private $user;

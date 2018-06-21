@@ -6,6 +6,8 @@
  * Time: 13:29
  */
 
+namespace Model\Session;
+
 interface SessionAuthInterface
 {
     public function setSession($uID);

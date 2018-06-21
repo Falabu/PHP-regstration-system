@@ -6,6 +6,9 @@
  * Time: 14:06
  */
 
+namespace Model\User;
+use Model\Session\SessionAuthInterface;
+
 interface UserControllerInterface
 {
     public function getUser();

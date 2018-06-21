@@ -6,6 +6,8 @@
  * Time: 13:21
  */
 
+namespace Model\Session;
+
 interface SessionAuthDataManagerInterface
 {
     public function setSessionDb($uId, $hash);

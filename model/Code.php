@@ -25,6 +25,9 @@
  * @author Kurucz Dávid
  */
 
+namespace Model;
+use Utils\errorLogger;
+
 class Code
 {
     private $code;

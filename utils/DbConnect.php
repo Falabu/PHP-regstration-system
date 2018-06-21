@@ -5,6 +5,11 @@
  * Létrehoz egy kapcsolatot az adatbázishoz.
  *
  */
+
+namespace Utils;
+use PDO;
+use PDOException;
+
 class dbConnect
 {
     static private $db = NULL;

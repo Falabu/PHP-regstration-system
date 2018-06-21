@@ -6,6 +6,8 @@
  * Time: 13:15
  */
 
+namespace Model;
+
 interface CodeDataManagerInterface
 {
     public function upload($uId, $code);

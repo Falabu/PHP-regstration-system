@@ -6,10 +6,13 @@
  * Time: 13:42
  */
 
+namespace Utils;
+
 class errorLogger
 {
-    private static $userMessages = '';
+    private static $userMessages = array();
     private static $logFileName = LOG_URL . "log.txt";
+    private static $msg = '';
 
     /**
      * Write the message to the $userMessages variable.
@@ -19,7 +22,7 @@ class errorLogger
 
     public static function writeUserMessages($msg)
     {
-        self::$userMessages = $msg;
+            self::$userMessages[] = $msg;
     }
 
     /**
@@ -29,7 +32,10 @@ class errorLogger
      */
     public static function getUserMessages()
     {
-        return self::$userMessages;
+        foreach (self::$userMessages as $msg){
+            self::$msg .= $msg . "<br>";
+        }
+        return self::$msg;
     }
 
     /**

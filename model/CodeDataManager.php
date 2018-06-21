@@ -29,6 +29,9 @@
  * Time: 15:03
  */
 
+namespace Model;
+use Utils\DbConnect;
+
 class CodeDataManager implements CodeDataManagerInterface
 {
     private $db;

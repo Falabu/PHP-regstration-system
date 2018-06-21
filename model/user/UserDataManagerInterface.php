@@ -6,6 +6,8 @@
  * Time: 13:31
  */
 
+namespace Model\User;
+
 interface UserDataManagerInterface
 {
     public function updateUserInfo(User $user);
