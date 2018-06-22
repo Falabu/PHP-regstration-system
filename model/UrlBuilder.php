@@ -86,4 +86,9 @@ class UrlBuilder
         return $this->url . $this->file . $this->params;
 
     }
+
+    public function __toString()
+    {
+        return $this->url . $this->file . $this->params;
+    }
 }
